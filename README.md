@@ -36,7 +36,7 @@ Per questo progetto ho usato Xampp, tenendo il database `ecommerce-admin` sulla 
 [Stripe](https://stripe.com/it) è un API per i pagamenti, questo progetto la usa in `test-mode` per i pagamenti.
 Per provare i pagementi Stripe offre delle Carte di Credito/Debito [https://docs.stripe.com/testing](https://docs.stripe.com/testing)
 ## Installazione Stripe
-Stripe richiede [CLI](https://stripe.com/docs/stripe-cli), una volta scaricato ed impostato bisogna aprire 2 console.
+Scaricare [Stripe](https://stripe.com/docs/stripe-cli), una volta scaricato ed impostato bisogna aprire 2 console.
 
 ## Configurazione Stripe
 Nella prima console si dovranno eseguire i seguenti comandi:
