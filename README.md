@@ -53,4 +53,11 @@ Nella seconda console invece si dovrà eseguire:
 ```
 Ora `Stripe` è pronto e configurato correttamente e l'E-Commerce dovrebbe funzinare a dovere.
 
-# 
+# Gruppo
+Scudiere Kevin (Capogruppo)
+Mora Elias
+Cirillo Lorenzo
+Singh Harkirat
+
+# Modalità di lavoro
+Il gruppo ha deciso di assegnare a soltanto 1 membro la scrittura del codice, in questo caso sono stato scelto io, il resto del gruppo ha aiutato nella programmazione, mi aiutato a risolvere eventuali errori ed infine hanno aggiunto i prodotti finali. Ritengo che la suddivisone sia stata abbastanza equilibrata valutando le competenze del gruppo, non ci sono stati elementi del gruppo che non hanno aiutato nello sviluppo dell'Ecommerce.
