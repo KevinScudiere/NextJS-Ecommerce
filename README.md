@@ -54,7 +54,7 @@ Nella seconda console invece si dovrà eseguire:
 Ora `Stripe` è pronto e configurato correttamente e l'E-Commerce dovrebbe funzinare a dovere.
 
 # Gruppo
-- Scudiere Kevin (Capogruppo)
+* Scudiere Kevin (Capogruppo)
 * Mora Elias
 * Cirillo Lorenzo
 * Singh Harkirat
