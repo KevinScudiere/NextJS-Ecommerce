@@ -34,7 +34,7 @@ export async function POST(req: Request, { params }: { params: { storeId: string
         line_items.push({
             quantity: 1,
             price_data: {
-                currency: 'USD',
+                currency: 'EUR',
                 product_data: {
                     name: product.name,
                 },
