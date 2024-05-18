@@ -1,4 +1,4 @@
-# Installazione e Configurazione
+# Installazione e configurazione
 Dopo aver scaricato `NextJs-Ecommerce-master.zip` ed averlo estratto avviare 2 terminali.
 
 ## Avviare la dashboard e lo store
