@@ -31,19 +31,19 @@ const Info: React.FC<InfoProps> = ({
             <hr className="my-4"/>
             <div className="flex flex-col ga-y-6">
                 <div className="flex items-center gap-x-4">
-                    <h3 className="font-semibold text-black">Size:</h3>
+                    <h3 className="font-semibold text-black">Taglia:</h3>
                     <div>
                         {data?.size?.value}
                     </div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <h3 className="font-semibold text-black">Color:</h3>
+                    <h3 className="font-semibold text-black">Colore:</h3>
                     <div className="h-6 w-6 rounded-full border border-gray-600" style={{ backgroundColor: data?.color?.value }}/>
                 </div>
             </div>
             <div className="mt-10 items-center gap-x-3">
                 <Button onClick={onAddToCart} className="flex items-center gap-x-2">
-                    Add To Cart
+                    Aggiungi al Carrello
                     <ShoppingCart />
                 </Button>
             </div>

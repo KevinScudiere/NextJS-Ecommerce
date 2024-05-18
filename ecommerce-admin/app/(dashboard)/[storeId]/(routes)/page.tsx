@@ -8,7 +8,7 @@ import { Heading } from "@/components/ui/heading";
 import { Separator } from "@/components/ui/separator";
 import prismadb from "@/lib/prismadb"
 import { formatter } from "@/lib/utils";
-import { CreditCard, DollarSign, Package } from "lucide-react";
+import { CreditCard, DollarSign, EuroIcon, Package } from "lucide-react";
 
 interface DashboardPageProps {
   params: { storeId: string }
@@ -35,7 +35,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
               <CardTitle className="text-sm font-medium">
                 Total Revenue
               </CardTitle>
-              <DollarSign className="w-4 h-4 text-muted-foreground" />
+              <EuroIcon className="w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">
