@@ -30,7 +30,7 @@ Ora eseguire comando:
 > L'ecommerce-store deve stare sulla porta 3001, altrimenti darà problemi con le API.
 
 ## Avvio Database
-Per questo progetto ho usato Xampp, tenendo il database sulla porta 3006
+Per questo progetto ho usato Xampp, tenendo il database `ecommerce-admin` sulla porta 3006
 
 # Avvio Stripe
 [Stripe](https://stripe.com/it) è un API per i pagamenti, questo progetto la usa in `test-mode` per i pagamenti.
