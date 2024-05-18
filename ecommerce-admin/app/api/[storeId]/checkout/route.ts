@@ -38,7 +38,7 @@ export async function POST(req: Request, { params }: { params: { storeId: string
                 product_data: {
                     name: product.name,
                 },
-                unit_amount: Number(product.price) * 100
+                unit_amount: Math.ceil(Number(product.price) * 100)
             }
         })
     })
