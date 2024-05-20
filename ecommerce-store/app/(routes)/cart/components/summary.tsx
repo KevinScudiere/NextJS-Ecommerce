@@ -16,15 +16,19 @@ const Summary = () => {
 
     useEffect(() => {
         if(searchParams.get('success')) {
-            toast.success("Payment completed.");
+            toast.success("Pagamento riuscito.");
             removeAll();
         }
         if(searchParams.get("canceled")) {
-            toast.error("Something went wrong.")
+            toast.error("Qualcosa è andato storto.")
         }
     }, [searchParams, removeAll])
 
     const onCheckout = async () => {
+
+        if(items.length === 0) {
+            return toast.error("Il carrello è vuoto.")
+        }
         const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/checkout`, {
             productIds: items.map(item => item.id),
         });
@@ -43,7 +47,7 @@ const Summary = () => {
                     <Currency value={totalPrice} />
                 </div>
             </div>
-            <Button disabled={items.length === 0} className='w-full mt-6' onClick={onCheckout}>
+            <Button className='w-full mt-6' onClick={onCheckout}>
                 Acquista
             </Button>
         </div>
