@@ -45,7 +45,7 @@ Nella prima console si dovranno eseguire i seguenti comandi:
 ```
 Dovrete fare il login per poi eseguire questo comando:
 ```
-  stripe listen --forward-to localhost:4000/api/webhook
+  stripe listen --forward-to localhost:3000/api/webhook
 ```
 Nella seconda console invece si dovrà eseguire:
 ```
