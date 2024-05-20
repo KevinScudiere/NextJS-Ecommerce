@@ -50,6 +50,7 @@ export const columns: ColumnDef<ProductColumn>[] = [
         {row.original.color}
         <div
           className="h-6 w-6 rounded-full border"
+          style={{ backgroundColor: row.original.color }}
         />
       </div>
     )
